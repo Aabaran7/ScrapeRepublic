@@ -26,10 +26,16 @@ This project is designed to analyze the sentiment expressed in Nepali news artic
 
 ## How to Run
 
-1.  **Install Libraries:** Make sure you have the necessary libraries installed. You can install them using pip: "bash pip install beautifulsoup4 requests pandas urllib3 textblob"
-2.  **Run the Code:** Execute the Python script in a Jupyter Notebook (Google Colab is recommended) or a similar environment.
-3.  **Enter Name:** The script will prompt you to enter the last name of the politician you want to analyze.
-4.  **View Results:** The script will display the sentiment analysis results for the articles mentioning the specified politician. Each result will include:
+1.  **Install Libraries:** Make sure you have the necessary libraries installed. You can install them using
+    ```
+    pip install -r requirements.txt
+    ```
+4.  **Run the Code:** Execute the Python script in a Jupyter Notebook (Google Colab is recommended) or a similar environment.
+    ```
+    python main.py
+    ```
+6.  **Enter Name:** The script will prompt you to enter the last name of the politician you want to analyze.
+7.  **View Results:** The script will display the sentiment analysis results for the articles mentioning the specified politician. Each result will include:
     - Title of the article
     - Link to the article
     - Date of publication
