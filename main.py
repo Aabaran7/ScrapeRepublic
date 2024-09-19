@@ -15,7 +15,7 @@ def construct_article_link(title):
     slug = re.sub(r'[^a-zA-Z0-9\s]', '', title).lower().replace(' ', '-')
     return f"https://myrepublica.nagariknetwork.com/news/{slug}/"
 
-def scrape_politics_articles(base_url, pages=3):
+def scrape_politics_articles(base_url, pages=10):
     articles = []
 
     for page in range(1, pages + 1):
